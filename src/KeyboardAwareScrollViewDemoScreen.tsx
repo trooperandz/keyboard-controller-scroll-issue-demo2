@@ -42,6 +42,7 @@ export const KeyboardAwareScrollViewDemoScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <TextInput
+        autoFocus
         placeholder="KeyboardAware Demo"
         style={styles.input}
         placeholderTextColor="gray"
